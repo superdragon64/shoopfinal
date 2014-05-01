@@ -1,0 +1,91 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="finalecss.css" />
+<script src="jquery.js"></script>
+		<link type="text/css" href="styles/bottom.css" rel="stylesheet" />
+        <script type="text/javascript" src="lib/jquery.jcarousel.min.js"></script>
+		<script type="text/javascript" src="lib/jquery.pikachoose.min.js"></script>
+		<script type="text/javascript" src="lib/jquery.touchwipe.min.js"></script>
+		<script language="javascript">
+			$(document).ready(
+				function (){
+					$("#pikame").PikaChoose({carousel:true,carouselOptions:{wrap:'circular'}});
+				});
+		</script>
+		<script language="javascript">
+        function MouseRollover(MyImage) {
+        MyImage.src = "test2.png";
+    }
+        function MouseOut(MyImage) {
+        MyImage.src = "test.gif";
+    }
+</script>
+</head>
+<body>
+	<div id = "content">
+	
+	<!--content goes here-->
+		<div id = "header">
+		<p>test</p>
+		</div>
+		<div id = "fadein">
+		</div>
+	
+    
+	<div id = "leftcontain">
+	<div id = "leftmenu">
+	<br>
+	<div style="height: 1px; background-color: black; text-align: center">
+  <span style="background-color: white; position: relative; top: -0.5em;">
+    Artists
+  </span>
+</div>
+	<br>
+	<a href = "https://www.youtube.com/watch?v=b3_lVSrPB6w" target="_blank"> <img src = "test.gif" class = "button" onMouseOver="MouseRollover(this)" 
+onMouseOut="MouseOut(this)" /> </a>
+	<br>
+<img src = "test.gif" class = "button" onMouseOver="MouseRollover(this)" 
+onMouseOut="MouseOut(this)" />	
+<br>
+<img src = "test.gif" class = "button" onMouseOver="MouseRollover(this)" 
+onMouseOut="MouseOut(this)" />	
+<br>
+<img src = "test.gif" class = "button" onMouseOver="MouseRollover(this)" 
+onMouseOut="MouseOut(this)" />	
+<hr>
+<img src = "test.gif" class = "button" onMouseOver="MouseRollover(this)" 
+onMouseOut="MouseOut(this)" />	
+<p>test</p>
+	 </div>
+	 </div>
+	 <div id = "rightmenu">
+	 	<div class="pikachoose">
+	<ul id="pikame" class="jcarousel-skin-pika">
+	<li> <img height = "80px" src = "1.jpg"> </li>
+	<li> <img height = "80px" src = "2.jpg"> </li>
+	<li> <img height = "80px" src = "3.png"> </li>
+	<li> <img height = "80px" src = "4.jpg"> </li>
+	</ul>
+	</div>
+	<p>test</p>
+	 </div>
+	 <div id = "comments">
+	 <br>
+	 <p>test</p>
+	 <marquee> UR A FAGET </marquee>
+	 	 <marquee> UR A FAGET </marquee>
+		 	 <marquee> UR A FAGET </marquee>
+			 	 <marquee> UR A FAGET </marquee>
+				 	 <marquee> UR A FAGET </marquee>
+					 	 <marquee> UR A FAGET </marquee>
+						 	 <marquee> UR A FAGET </marquee>
+							 	 <marquee> UR A FAGET </marquee>
+	 </div>
+	 </div>
+	<footer id = "footer">
+	<br>
+	<p> lel </p>
+	</footer>
+</body>
+</html>

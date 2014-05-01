@@ -1,0 +1,185 @@
+
+.button
+{
+width:80%;
+height:40px;
+margin:0;
+display: block;
+margin-left: auto;
+margin-right: auto;
+height:70px;
+max-width:230px;
+min-width:140px;
+}
+#comments
+{
+margin-top:500px;
+width:100%;
+min-width:20px;
+}
+#content
+{
+  width: 84%;
+  margin: 0 auto;
+  background-color:white;
+  min-height:100%;
+  min-width:800px;
+  height:800px;
+  
+  }
+  #header
+  {
+  height:80px;
+  text-align:center;
+ background-color:#F7FF00;
+  }
+  #fadein
+  {
+  height:20px;
+  /* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top, #F7FF00 0%, #FFFFFF 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #F7FF00 0%, #FFFFFF 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top, #F7FF00 0%, #FFFFFF 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #F7FF00), color-stop(1, #FFFFFF));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #F7FF00 0%, #FFFFFF 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom, #F7FF00 0%, #FFFFFF 100%);
+  }
+  #leftcontain
+  {
+  margin-top:10px;
+  height: 500px;
+  float: left;
+    width: 20%; 
+	  min-width:160px;
+  }
+  #leftmenu
+  {
+ border-radius: 5px 5px 5px 5px;
+-moz-border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+border: 1px solid #c2c2c2;
+   width: 90%;
+  margin: 0 auto;
+  height: 495px;
+-webkit-box-shadow: 6px 6px 5px 0px rgba(50, 50, 50, 0.7);
+-moz-box-shadow:    6px 6px 5px 0px rgba(50, 50, 50, 0.7);
+box-shadow:         6px 6px 5px 0px rgba(50, 50, 50, 0.7);
+position:relative;
+z-index:1;
+  }
+  
+  #rightmenu
+  {
+    background-color:white;
+   float: right;
+  width: 80%;
+    min-width:512px;
+    height: 500px;
+	
+  }
+  html {
+    height: 100%;
+}
+footer
+{
+width:100%;
+height: 50px;
+background-color: orange;
+margin-bottom:0px;
+min-width:800px;
+text-align:center;
+-webkit-box-shadow: inset 4px 4px 3px 0px rgba(50, 50, 50, 1);
+-moz-box-shadow:    inset 4px 4px 3px 0px rgba(50, 50, 50, 1);
+box-shadow:         inset 4px 4px 3px 0px rgba(50, 50, 50, 1);
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top, #FF6EF0 0%, #FFFFFF 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #FF6EF0 0%, #FFFFFF 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top, #FF6EF0 0%, #FFFFFF 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FF6EF0), color-stop(1, #FFFFFF));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #FF6EF0 0%, #FFFFFF 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom, #FF6EF0 0%, #FFFFFF 100%);
+}
+
+
+
+
+
+
+
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
